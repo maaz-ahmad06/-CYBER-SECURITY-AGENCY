@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="CYBER SECURITY AGENCY - Next-generation defense and threat management. Securing digital infrastructure against advanced threats.">
+    <title>CYBER SECURITY AGENCY | Secure Digital Infrastructure</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for high-quality tech icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Cyber Preloader Overlay -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="loader-cyber-shield">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div class="shield-scan-line"></div>
+                <div class="outer-ring"></div>
+            </div>
+            <h2 class="loader-title">CYBER SECURITY AGENCY</h2>
+            <div class="loader-progress-container">
+                <div class="loader-progress-bar" id="progress-bar"></div>
+            </div>
+            <div class="loader-terminal-text" id="loader-terminal">
+                [INITIATING SYSTEM BOOT...]
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Glassmorphic Navigation Bar -->
+    <header class="navbar-wrapper">
+        <div class="container navbar-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-shield-halved logo-icon"></i>
+                <span class="logo-text">CYBER<span class="highlight">AGENCY</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link active">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#threat-intel" class="nav-link">Threat Intel</a></li>
+                    <li><a href="#workflow" class="nav-link">Our Process</a></li>
+                    <li><a href="#incident-portal" class="nav-link">Secure Portal</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#incident-portal" class="btn btn-cta">
+                    <span class="cta-pulse"></span>
+                    <i class="fa-solid fa-triangle-exclamation btn-icon"></i>REPORT BREACH
+                </a>
+                <button class="mobile-toggle-btn" id="mobile-toggle" aria-label="Toggle Menu">
+                    <span class="bar bar-top"></span>
+                    <span class="bar bar-mid"></span>
+                    <span class="bar bar-bot"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. Hero Section -->
+    <section class="hero-section" id="home">
+        <!-- Interactive cyber grid pattern -->
+        <div class="cyber-grid-overlay"></div>
+        <div class="cyber-scan-glow"></div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="security-tag" data-reveal="left">
+                    <span class="pulse-dot green"></span>
+                    <span class="tag-text">SYSTEMS STATUS: OPTIMAL</span>
+                </div>
+                <h1 class="hero-title" data-reveal="left">
+                    SECURING the <br>
+                    <span class="glow-text">DIGITAL FRONTIER</span>
+                </h1>
+                <p class="hero-description" data-reveal="left">
+                    Next-generation cyber defense, threat intelligence, and digital risk management. We preempt, shield, and neutralize advanced threats before they compromise your operational integrity.
+                </p>
+                <div class="hero-buttons" data-reveal="left">
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fa-solid fa-shield-virus"></i>Explore Shields
+                    </a>
+                    <a href="#threat-intel" class="btn btn-secondary">
+                        <i class="fa-solid fa-terminal"></i>Live Feed
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual" data-reveal="right">
+                <div class="visual-shield-container">
+                    <div class="radar-circle circle-1"></div>
+                    <div class="radar-circle circle-2"></div>
+                    <div class="radar-circle circle-3"></div>
+                    <div class="cyber-shield-card">
+                        <div class="shield-holo-glow"></div>
+                        <i class="fa-solid fa-shield-halved holographic-shield"></i>
+                        <div class="hud-element hud-top-left"></div>
+                        <div class="hud-element hud-top-right"></div>
+                        <div class="hud-element hud-bottom-left"></div>
+                        <div class="hud-element hud-bottom-right"></div>
+                        <div class="hud-encryption-status">
+                            <span class="label">SECURE ENCRYPTED NODE</span>
+                            <span class="value val-secure">AES-256-GCM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Stats Counters Section -->
+    <section class="stats-section">
+        <div class="container stats-container">
+            <div class="stat-card" data-reveal="bottom">
+                <div class="stat-icon-wrapper">
+                    <i class="fa-solid fa-lock-open stat-icon neon-red"></i>
+                </div>
+                <div class="stat-info">
+                    <h3 class="stat-number" data-target="1429510">0</h3>
+                    <p class="stat-label">Daily Threats Blocked</p>
+                </div>
+            </div>
+            <div class="stat-card" data-reveal="bottom" data-delay="100">
+                <div class="stat-icon-wrapper">
+                    <i class="fa-solid fa-hourglass-half stat-icon neon-cyan"></i>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number-wrapper">
+                        <h3 class="stat-number" data-target="3">0</h3><span class="stat-unit">.2m</span>
+                    </div>
+                    <p class="stat-label">Avg Incident Response Time</p>
+                </div>
+            </div>
+            <div class="stat-card" data-reveal="bottom" data-delay="200">
+                <div class="stat-icon-wrapper">
+                    <i class="fa-solid fa-user-shield stat-icon neon-green"></i>
+                </div>
+                <div class="stat-info">
+                    <h3 class="stat-number" data-target="450">0</h3>
+                    <p class="stat-label">Active Cyber Agents</p>
+                </div>
+            </div>
+            <div class="stat-card" data-reveal="bottom" data-delay="300">
+                <div class="stat-icon-wrapper">
+                    <i class="fa-solid fa-circle-check stat-icon neon-gold"></i>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number-wrapper">
+                        <h3 class="stat-number" data-target="99">0</h3><span class="stat-unit">.98%</span>
+                    </div>
+                    <p class="stat-label">Mitigation Success Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Threat Intelligence Live Terminal -->
+    <section class="threat-section" id="threat-intel">
+        <div class="container">
+            <div class="section-header" data-reveal="top">
+                <div class="cyber-header-accent"></div>
+                <span class="subtitle">THREAT INTEL CENTER</span>
+                <h2 class="section-title">Live Global Threat Log</h2>
+                <p class="section-desc">Simulated direct feed tracking unauthorized access vectors, penetration mitigations, and systemic breaches detected globally.</p>
+            </div>
+            
+            <div class="terminal-container" data-reveal="bottom">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span class="dot dot-red"></span>
+                        <span class="dot dot-yellow"></span>
+                        <span class="dot dot-green"></span>
+                    </div>
+                    <div class="terminal-title">
+                        <i class="fa-solid fa-terminal"></i> console@cyber-agency-soc:~
+                    </div>
+                    <div class="terminal-badge">
+                        <span class="pulse-dot green"></span>
+                        <span>FEED ONLINE</span>
+                    </div>
+                </div>
+                <div class="terminal-body" id="terminal-body">
+                    <!-- JavaScript will inject terminal logs here dynamically -->
+                </div>
+                <div class="terminal-footer">
+                    <span class="terminal-footer-item"><i class="fa-solid fa-network-wired"></i> Subnet: WAN-0</span>
+                    <span class="terminal-footer-item"><i class="fa-solid fa-shield-halved"></i> Active Protocol: CYBER-SHIELD-V4.2</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Services Grid Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header" data-reveal="top">
+                <div class="cyber-header-accent"></div>
+                <span class="subtitle">TACTICAL ARSENAL</span>
+                <h2 class="section-title">Our Cybersecurity Offerings</h2>
+                <p class="section-desc">We offer advanced, scalable tactical defenses to secure your hardware, software, network, and human layers.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card" data-reveal="bottom">
+                    <div class="card-glow"></div>
+                    <div class="service-card-inner">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-shield-virus"></i>
+                        </div>
+                        <h3 class="service-title">Endpoint Threat Detection (EDR)</h3>
+                        <p class="service-description">Advanced endpoint monitoring using heuristic analysis to identify and neutralize malware and ransomware in real time.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-circle-check"></i> Artificial Intelligence Analysis</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Zero-Day Protection</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Behavioral Mitigation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-card" data-reveal="bottom" data-delay="100">
+                    <div class="card-glow"></div>
+                    <div class="service-card-inner">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-user-ninja"></i>
+                        </div>
+                        <h3 class="service-title">Red Teaming & Pen Testing</h3>
+                        <p class="service-description">Simulated cyberattacks mapping your architecture's vulnerabilities before actual malicious actors can exploit them.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-circle-check"></i> White/Black Box Testing</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Social Engineering Drills</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Firewall Exploits Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="service-card" data-reveal="bottom" data-delay="200">
+                    <div class="card-glow"></div>
+                    <div class="service-card-inner">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-cloud-shield"></i>
+                        </div>
+                        <h3 class="service-title">Cloud Infrastructure Security</h3>
+                        <p class="service-description">Comprehensive cloud defense setups covering AWS, Azure, and GCP architectures with continuous validation pipelines.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-circle-check"></i> Multi-Cloud Monitoring</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Identity & Access Management</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Virtual Network Encryption</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="service-card" data-reveal="bottom">
+                    <div class="card-glow"></div>
+                    <div class="service-card-inner">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                        </div>
+                        <h3 class="service-title">Incident Response & Recovery</h3>
+                        <p class="service-description">Rapid containment and forensic analysis during ongoing system breaches, aimed at minimal business downtime.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-circle-check"></i> 1-Hour SLA Containment</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Root Cause Diagnostics</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Safe Restore Procedures</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="service-card" data-reveal="bottom" data-delay="100">
+                    <div class="card-glow"></div>
+                    <div class="service-card-inner">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-vault"></i>
+                        </div>
+                        <h3 class="service-title">Data Protection & Cryptography</h3>
+                        <p class="service-description">Full scale deployment of homomorphic and quantum-resistant encryption libraries to safeguard internal metrics.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-circle-check"></i> End-to-End Encryption</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Zero-Knowledge Protocols</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Secure Storage Vaults</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="service-card" data-reveal="bottom" data-delay="200">
+                    <div class="card-glow"></div>
+                    <div class="service-card-inner">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="service-title">Security Awareness Training</h3>
+                        <p class="service-description">Human firewall development programs to protect operations against advanced spear-phishing tactics.</p>
+                        <ul class="service-features">
+                            <li><i class="fa-solid fa-circle-check"></i> Phishing Testing Simulation</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Compliance Certifications</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Operational Security Drills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Our Process Workflow Timeline -->
+    <section class="workflow-section" id="workflow">
+        <div class="container">
+            <div class="section-header" data-reveal="top">
+                <div class="cyber-header-accent"></div>
+                <span class="subtitle">OUR METHODOLOGY</span>
+                <h2 class="section-title">The Shield Blueprint</h2>
+                <p class="section-desc">How we structure your defense layer, establishing high-integrity systems from investigation to constant watch.</p>
+            </div>
+
+            <div class="workflow-timeline">
+                <!-- Step 1 -->
+                <div class="timeline-item" data-reveal="left">
+                    <div class="timeline-index">01</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Audit & Assess</h3>
+                        <p>We audit existing codebases, configure server environments, inspect active network nodes, and identify configuration gaps or backdoors.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="timeline-item" data-reveal="right">
+                    <div class="timeline-index">02</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Fortify & Encrypt</h3>
+                        <p>Implementation of virtual walls, cloud routing, multi-factor hardware access tokens, and end-to-end payload cryptography across servers.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="timeline-item" data-reveal="left">
+                    <div class="timeline-index">03</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Continuous Watch</h3>
+                        <p>Deploying virtual sensors and agents within systems to aggregate metadata and feed our SOC terminal 24/7 with zero interruption.</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="timeline-item" data-reveal="right">
+                    <div class="timeline-index">04</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Neutralize & Adapt</h3>
+                        <p>Automated isolation triggers containing suspicious nodes instantly while alerting cyber agents to adapt mitigation tools against target strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Secure Contact Intake / Incident Portal -->
+    <section class="incident-section" id="incident-portal">
+        <div class="container incident-container">
+            <div class="incident-form-wrapper" data-reveal="left">
+                <div class="cyber-card-header">
+                    <div class="header-glitch">
+                        <i class="fa-solid fa-key-skeleton"></i> SECURE COMMUNICATIONS PORTAL
+                    </div>
+                    <p class="subtitle">SSL-2048 ENCRYPTED SESSION</p>
+                </div>
+                
+                <form id="incident-form" class="incident-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="caller-name"><span class="form-label-code">[01]</span> CONTACT NAME</label>
+                            <div class="input-container">
+                                <i class="fa-solid fa-user input-icon"></i>
+                                <input type="text" id="caller-name" required placeholder="Agent / Operator Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="caller-email"><span class="form-label-code">[02]</span> EMAIL ADDRESS</label>
+                            <div class="input-container">
+                                <i class="fa-solid fa-envelope input-icon"></i>
+                                <input type="email" id="caller-email" required placeholder="name@agency-nodes.com">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="threat-level"><span class="form-label-code">[03]</span> INCIDENT SEVERITY LEVEL</label>
+                            <div class="input-container">
+                                <i class="fa-solid fa-triangle-exclamation input-icon"></i>
+                                <select id="threat-level" required>
+                                    <option value="" disabled selected>Select Threat Classification</option>
+                                    <option value="low">Level 1 - Diagnostic / Compliance Question</option>
+                                    <option value="medium">Level 2 - Mild Anomaly / Vulnerability Scan</option>
+                                    <option value="high">Level 3 - Active Port Scan / Suspicious Payload</option>
+                                    <option value="critical">Level 4 - CRITICAL BREACH / System Ransomware</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="incident-details"><span class="form-label-code">[04]</span> ENCRYPTED DISCLOSURE DETAIL</label>
+                        <div class="input-container textarea-container">
+                            <i class="fa-solid fa-comment-dots input-icon"></i>
+                            <textarea id="incident-details" rows="5" required placeholder="Describe node vulnerabilities, anomalies, or security requirements..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-submit" id="submit-btn">
+                            <span class="btn-glow-layer"></span>
+                            <i class="fa-solid fa-paper-plane btn-icon"></i>TRANSMIT ENCRYPTED PAYLOAD
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Form Sidebar info panel -->
+            <div class="incident-info-panel" data-reveal="right">
+                <div class="info-cyber-badge">
+                    <i class="fa-solid fa-lock-keyhole"></i>
+                    <h4>ZERO-LOG PRINCIPLE</h4>
+                    <p>All inquiries submitted through this portal are held in volatile RAM, evaluated, and immediately destroyed upon secure dispatch to active on-duty incident responders.</p>
+                </div>
+                <div class="info-cyber-badge">
+                    <i class="fa-solid fa-headset"></i>
+                    <h4>EMERGENCY SLA HOTLINE</h4>
+                    <p>If you are experiencing an ongoing ransomware execution or data extraction, call our hotline instantly:</p>
+                    <div class="phone-link">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+1 (800) 555-CYBER</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Footer Section -->
+    <footer class="footer-wrapper">
+        <div class="container footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fa-solid fa-shield-halved logo-icon"></i>
+                        <span class="logo-text">CYBER<span class="highlight">AGENCY</span></span>
+                    </a>
+                    <p class="footer-brand-desc">
+                        Providing digital immunity platforms, intelligence systems, and security architecture validation since 2018.
+                    </p>
+                    <div class="system-status-indicator">
+                        <span class="pulse-dot green"></span>
+                        <span class="status-text">SOC SYSTEMS ONLINE // LATENCY: 22MS</span>
+                    </div>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4 class="footer-title">Agency Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home Base</a></li>
+                        <li><a href="#services">Security Shields</a></li>
+                        <li><a href="#threat-intel">Live Threats Log</a></li>
+                        <li><a href="#workflow">The Shield Blueprint</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4 class="footer-title">Threat Matrix</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Security Bulletins</a></li>
+                        <li><a href="#">Ransomware Decryptors</a></li>
+                        <li><a href="#">Phishing Vectors Database</a></li>
+                        <li><a href="#">System Integrity Tools</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4 class="footer-title">INTELLIGENCE BULLETINS</h4>
+                    <p>Subscribe to receive high-level vulnerability reports and patch alerts.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" required placeholder="secure-mail@domain.com">
+                        <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    &copy; 2026 CYBER SECURITY AGENCY. ALL ENCRYPTED DATA PROTECTED UNDER STATE LEVEL IMMUNITY STATUTES.
+                </div>
+                <div class="footer-socials">
+                    <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Encrypted transmission feedback modal -->
+    <div id="cyber-modal" class="cyber-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i class="fa-solid fa-satellite-dish modal-scanner-icon"></i>
+                <h3>TRANSMISSION SECURE</h3>
+            </div>
+            <div class="modal-body">
+                <div class="terminal-output-log" id="modal-log">
+                    <!-- dynamic code prints here -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" id="close-modal-btn">CLOSE CONNECTION</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Entry Point -->
+    <script src="script.js"></script>
+</body>
+</html>
