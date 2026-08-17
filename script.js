@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. MOBILE MENU NAVIGATION DRAWER
     const mobileToggle = document.getElementById('mobile-toggle');
     const navMenu = document.getElementById('nav-menu');
-    const navLinks = document.querySelectorAll('.nav-link');
+    const navLinks = document.querySelectorAll('.nav-link, .mobile-cta-item .btn-cta');
 
     const toggleMenu = () => {
         mobileToggle.classList.toggle('open');
